@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+
+/** datos personales e intereses **/
+.about-item {
+    margin-bottom: 20px;
+    margin-top: 2px;
+    background-color: #81b0ab;
+    padding: 10px;
+    height: 360px;
+    box-shadow: 1px 2px 7px  rgb(70, 115, 123);
+    border-radius: 50px;
+}
+
+
+/** datos personales e intereses**/
+.about-2 h3{
+    text-align: center;
+    align-items: center;
+    color: #0b3b54;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.about-2 strong, span {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    color: #0b4f73;
+    font-family: 'Merriweather Sans', sans-serif;
+    
+}
+
+strong {
+    font-weight: bold;
+}

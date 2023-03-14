@@ -7,6 +7,9 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { RedesComponent } from './redes/redes.component';
 import { BannerComponent } from './banner/banner.component';
 import { BannerContentComponent } from './banner-content/banner-content.component';
+import { AboutMeComponent } from './about-me/about-me.component';
+import { AboutMePersonalComponent } from './about-me-personal/about-me-personal.component';
+import { AboutMeInterestsComponent } from './about-me-interests/about-me-interests.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { BannerContentComponent } from './banner-content/banner-content.componen
     NavbarComponent,
     RedesComponent,
     BannerComponent,
-    BannerContentComponent
+    BannerContentComponent,
+    AboutMeComponent,
+    AboutMePersonalComponent,
+    AboutMeInterestsComponent
   ],
   imports: [
     BrowserModule,
