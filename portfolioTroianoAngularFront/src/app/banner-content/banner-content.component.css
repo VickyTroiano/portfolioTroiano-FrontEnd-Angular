@@ -1,0 +1,64 @@
+div.banner-content-rectangle{ 
+    padding: 5%;
+    margin: 0 auto;
+    background-color: rgb(154, 198, 194, .5);
+    border-radius: 15%;
+    /**height: 90vh;**/
+}
+
+
+.button-cv{
+    background:antiquewhite;
+    text-decoration: none;
+    padding: 16px;
+    border-radius: 100px;
+    font-size: 20px;
+    color: rgb(11, 65, 113);
+    font-family: 'Merriweather Sans', sans-serif;
+    padding: 2%;
+    box-shadow: 1px 2px 7px rgb(14 26 28);
+}
+
+.button-cv:hover {
+    text-decoration: none;
+    color: antiquewhite;
+    background: rgb(11, 65, 113);
+    transition: color 0.3s linear 0.2s;
+}
+
+
+img.img-person {
+    width: 50%;
+    height: 50%;
+    margin-bottom: 5%;
+    
+}
+
+div.img-container{
+    align-items: center;
+    text-align: center;
+    
+}
+
+img.img-person{
+    border: 10px solid #81b0ab;
+    border-radius: 80%;
+    box-shadow: 1px 6px 17px rgb(70 118 134);
+   
+}
+
+.banner-text {
+    color: rgb(11, 65, 113);
+    text-align: center;
+    
+}
+
+h1.banner-text-name{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 2.5rem;   
+}
+
+
+p.banner-text-parraph {
+    font-family: 'Merriweather Sans', sans-serif;
+}
