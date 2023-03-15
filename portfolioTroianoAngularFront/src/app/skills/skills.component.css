@@ -23,13 +23,7 @@ section.skills {
     box-shadow: 1px 6px 17px rgb(171 197 182);
 }
 
-div.skills-content-rectangle{
-    margin-bottom: 30px;
-    background-color: rgba(154, 198, 194, 0.5);
-    padding: 10px;
-    /**height: 360px;**/
-    border-radius: 50px;
-}
+
 
 .skills-content h3{
     text-align: center;

@@ -36,3 +36,12 @@
 strong {
     font-weight: bold;
 }
+
+/** skills & education - rectangulo **/
+div.skills-content-rectangle{
+    margin-bottom: 30px;
+    background-color: rgba(154, 198, 194, 0.5);
+    padding: 10px;
+    /**height: 360px;**/
+    border-radius: 50px;
+}
