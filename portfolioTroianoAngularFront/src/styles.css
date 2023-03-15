@@ -21,6 +21,44 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+/** formularios - para contacto & panel **/
+
+form{
+    background-color: rgb(129, 176, 171);
+    text-align: -webkit-center;
+    padding: 20px;
+    border-radius: 20px;
+    width: 50%;
+}
+
+
+h3.login-h3{
+    font-size: 3rem;
+    align-items: center;
+    font-weight: bold;
+    color:#0b3b54;
+    font-family: 'Montserrat', sans-serif;
+}
+div.btn-login{
+    text-align: center;
+}
+
+button.btn-login-bg{
+    
+    border-radius: 20px;
+    color: antiquewhite;
+    background-color: #92c0bb;
+    border: none;
+    font-size: large;
+    font-family: "Merriweather Sans", sans-serif;   
+}
+
+label{
+    font-family: "Merriweather Sans", sans-serif;
+    color: #0b4f73;
+}
+
+
 
 
 .about-2 strong, span {

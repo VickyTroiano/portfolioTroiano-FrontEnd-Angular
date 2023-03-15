@@ -1,0 +1,56 @@
+form.contact-form{
+    background-color: rgb(129, 176, 171);
+    /**text-align: -webkit-center;**/
+    /*width: 100%;*/
+    background-color: rgb(129, 176, 171);
+    text-align: -webkit-center;
+    /* padding: 20px; */
+    border-radius: 20px;
+    margin-left: 12px;
+    width: 90%;
+    text-align: initial;
+}
+
+section.contact{
+    background-color: rgb(253, 242, 227);
+    padding: 10px 40px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 4vh 4vw;
+}
+
+.social-contact{
+    text-align: -webkit-left;
+    padding-left: 9px;
+    color: #0a405e;
+   align-items: center;
+   text-align: justify;
+}
+
+.content-center{
+    align-items: center;
+    padding: 6px;
+}
+
+div.help-contact{
+    font-size: larger;
+    
+    align-self: center;
+    
+}
+
+
+
+h4.contact-title{
+    
+    color: #0a405e;
+    font-weight: bold;
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+p.contact-p{
+    color: #0a405e;
+    
+    font-family: "Merriweather Sans", sans-serif;
+}
