@@ -10,6 +10,7 @@ import { BannerContentComponent } from './banner-content/banner-content.componen
 import { AboutMeComponent } from './about-me/about-me.component';
 import { AboutMePersonalComponent } from './about-me-personal/about-me-personal.component';
 import { AboutMeInterestsComponent } from './about-me-interests/about-me-interests.component';
+import { SkillsComponent } from './skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { AboutMeInterestsComponent } from './about-me-interests/about-me-interes
     BannerContentComponent,
     AboutMeComponent,
     AboutMePersonalComponent,
-    AboutMeInterestsComponent
+    AboutMeInterestsComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,

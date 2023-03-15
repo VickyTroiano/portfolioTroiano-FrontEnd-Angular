@@ -1,0 +1,105 @@
+
+.skills h3{
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+section.skills {
+    background-color: rgb(253, 242, 227);
+    color: #0b3b54;
+    padding: 10px 40px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.container-skills{
+    margin-bottom: 20px;
+    /* margin: 0 auto; */
+    margin-top: 20px;
+    background-color: rgba(154, 198, 194, 0.5);
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 1px 6px 17px rgb(171 197 182);
+}
+
+div.skills-content-rectangle{
+    margin-bottom: 30px;
+    background-color: rgba(154, 198, 194, 0.5);
+    padding: 10px;
+    /**height: 360px;**/
+    border-radius: 50px;
+}
+
+.skills-content h3{
+    text-align: center;
+    align-items: center;
+    color: #0b3b54;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.skill-box{
+    align-items: center;
+    display: flex;
+    margin: 15px;
+}
+/** BARRA **/
+.barra{
+    width: 350px;
+    height: 20px;
+    background: #4b7388;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.progreso{
+    width: var(--w);
+    height: 100%;
+    background:  #0b3b54;
+    border-radius: 10px; 
+    animation: Aumentar 5s ease;  
+}
+
+@keyframes Aumentar{
+    0%{width:0%}
+    100%{width: var(--w)}
+}
+
+.container-skills:hover .progreso{
+    animation: AumentarDos 5s ease;
+}
+.fa-flip{
+    --fa-animation-duration: 3s;
+}
+
+.space-between{
+    padding: 2px;
+}
+
+
+.container-skills-2{
+    margin-bottom: 20px;
+    /* margin: 0 auto; */
+    margin-top: 20px;
+    background-color: rgba(154, 198, 194, 0.5);
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 1px 6px 17px rgb(171 197 182);
+    height: 90%;
+
+}
+
+.container-skills-2:hover .progreso{
+    animation: AumentarDos 5s ease;
+}
+
+button.carousel-control-next{
+    color: #0b3b54;
+    padding-left: 80%;
+}
+
+button.carousel-control-prev{
+    color: #0b3b54;
+    padding-right: 80%;
+}
