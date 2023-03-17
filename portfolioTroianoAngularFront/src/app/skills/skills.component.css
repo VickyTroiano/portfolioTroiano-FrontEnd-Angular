@@ -38,34 +38,47 @@ section.skills {
     display: flex;
     margin: 15px;
 }
+
 /** BARRA **/
-.barra{
+.meter { 
     width: 350px;
-    height: 20px;
+    height: 22px;
     background: #4b7388;
     border-radius: 10px;
     margin: 5px;
+    position: relative;
+    overflow: hidden;
 }
 
-.progreso{
-    width: var(--w);
+.meter span {
+    display: block;
+    height: 100%;
+}
+
+span.progress {
     height: 100%;
     background:  #0b3b54;
     border-radius: 10px; 
-    animation: Aumentar 5s ease;  
+    animation: progressBar 3s ease-in-out;
+    animation-fill-mode:both; 
+    color: #0b4f73;
+    font-weight: bold;
+    font-family: "Merriweather Sans", sans-serif;
+    text-align: center;
+    padding-top:0px;
 }
 
-@keyframes Aumentar{
-    0%{width:0%}
-    100%{width: var(--w)}
+.number-perc{
+    color: wheat;
+    padding-top: 0px;
 }
 
-.container-skills:hover .progreso{
-    animation: AumentarDos 5s ease;
+@keyframes progressBar {
+  0% { width: 0; }
+  100% { width: 100%; }
 }
-.fa-flip{
-    --fa-animation-duration: 3s;
-}
+
+
 
 .space-between{
     padding: 2px;
@@ -84,9 +97,6 @@ section.skills {
 
 }
 
-.container-skills-2:hover .progreso{
-    animation: AumentarDos 5s ease;
-}
 
 button.carousel-control-next{
     color: #0b3b54;
