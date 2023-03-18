@@ -1,0 +1,89 @@
+/** LOGIN **/
+
+.login-section{
+    background-color: rgb(253, 242, 227);
+    color: #0b3b54;
+    text-align: -webkit-center;
+    background-image: linear-gradient(
+        rgba(0,0,0,0),
+        rgba(0,0,0,0.5)
+        ),url(../../assets/img/banner-montania3.png);
+        
+   
+    display: flex;
+    padding: 5%;
+    padding-top: 24px;
+    justify-content: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+}
+
+form{
+    background-color: rgb(129, 176, 171);
+    text-align: -webkit-center;
+    padding: 20px;
+    border-radius: 20px;
+    width: 50%;
+}
+
+h3.login-h3{
+    font-size: 3rem;
+    align-items: center;
+    font-weight: bold;
+    color:#0b3b54;
+    font-family: 'Montserrat', sans-serif;
+}
+div.btn-login{
+    text-align: center;
+}
+
+button.btn-login-bg{
+    
+    border-radius: 20px;
+    color: antiquewhite;
+    background-color: #92c0bb;
+    border: none;
+    font-size: large;
+    font-family: "Merriweather Sans", sans-serif;   
+}
+
+d.container.py-5{
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+    text-align: -webkit-center;
+}
+
+input#floatingInput.form-control{
+    background-color: #92c0bb;
+    width: 80%;
+    border: none;
+    box-shadow: 1px 4px 18px rgb(70 118 134);
+}
+
+input#floatingInput.form-control:hover{
+    background-color: #92c0bb;
+    border: none;
+    box-shadow: 1px 4px 18px rgb(56, 97, 111);
+}
+
+.form-text{
+    font-family: "Merriweather Sans", sans-serif;
+      
+}
+
+#emailHelp.form-text{
+    margin-top: 20px;
+    font-size: small;
+    color: #4b7388;
+}
+
+label{
+    font-family: "Merriweather Sans", sans-serif;
+    color: #0b4f73;
+}
+
+small{
+    font-size: small;
+    color: #4b7388;
+}
