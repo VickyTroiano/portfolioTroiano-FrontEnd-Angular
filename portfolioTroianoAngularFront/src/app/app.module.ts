@@ -21,6 +21,7 @@ import { NavbarPanelComponent } from './navbar-panel/navbar-panel.component';
 import { ButtonLoginComponent } from './button-login/button-login.component';
 import { LoginComponent } from './login/login.component';
 import { ButtonLogoutComponent } from './button-logout/button-logout.component';
+import { SigninComponent } from './signin/signin.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { ButtonLogoutComponent } from './button-logout/button-logout.component';
     NavbarPanelComponent,
     ButtonLoginComponent,
     LoginComponent,
-    ButtonLogoutComponent
+    ButtonLogoutComponent,
+    SigninComponent
   ],
   imports: [
     BrowserModule,
