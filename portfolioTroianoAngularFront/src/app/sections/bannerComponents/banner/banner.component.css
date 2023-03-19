@@ -3,7 +3,7 @@ section.banner{
     background-image: linear-gradient(
         rgba(0,0,0,0),
         rgba(0,0,0,0.5)
-        ),url(../../assets/img/banner-montania3.png);
+        ),url(../../../../assets/img/banner-montania3.png);
         
     /**height: 100vh;**/
     display: flex;
