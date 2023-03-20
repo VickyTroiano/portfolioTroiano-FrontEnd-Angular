@@ -1,0 +1,38 @@
+.navbar-bgcolor{
+    /**background-color: rgb(80, 66, 171);**/
+    background-color: rgb(173, 219, 219);
+}
+#offcanvasNavbar{
+    background-color: rgb(173, 219, 219);
+    color: #0b3b54;
+    font-family: 'Merriweather Sans', sans-serif;
+        
+}
+
+.offcanvas-title{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.items-nav{
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+hr.bg-white{
+    color: white;
+    height: 2px;
+}
+a.nav-link.active:hover{
+    color:rgb(11, 65, 113) !important;
+    transition: color 0.3s linear 0.2s;
+    cursor: pointer;
+}
+
+.navbar-toggler{
+    border: none !important;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}

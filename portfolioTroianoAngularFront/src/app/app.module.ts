@@ -23,6 +23,8 @@ import { LoginComponent } from './login/login.component';
 import { ButtonLogoutComponent } from './panelComponents/button-logout/button-logout.component';
 import { SigninComponent } from './signin/signin.component';
 import { ErrorComponent } from './sections/error/error.component';
+import { PruebaNavbarComponent } from './sections/prueba-navbar/prueba-navbar.component';
+import { PruebaComponent } from './sections/prueba/prueba.component';
 
 
 
@@ -48,7 +50,9 @@ import { ErrorComponent } from './sections/error/error.component';
     LoginComponent,
     ButtonLogoutComponent,
     SigninComponent,
-    ErrorComponent
+    ErrorComponent,
+    PruebaNavbarComponent,
+    PruebaComponent
   ],
   imports: [
     BrowserModule,

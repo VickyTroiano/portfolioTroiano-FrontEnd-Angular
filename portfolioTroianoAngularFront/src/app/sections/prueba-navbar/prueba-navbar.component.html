@@ -1,0 +1,47 @@
+<nav class="navbar navbar-dark navbar-bgcolor">
+    
+    <div class="container-fluid">
+        <a class="navbar-brand" routerLink="/index">
+            <img src="assets\img\Logo.png" alt="Logo Argentina Programa" width="150" height="80">
+            </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Secciones</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+
+          <ul class="d-flex justify-content-center navbar-nav list-group list-group-horizontal flex-grow-1 pe-3">
+            <app-redes></app-redes>
+            <app-button-login></app-button-login>
+             
+          </ul>
+          <hr class="bg-white">
+          <ul class="navbar-nav items-nav list-group flex-grow-1 pe-3">
+                 <!-- links -->
+            
+            <li class="nav-item">
+                <a class="nav-link active" href="#aboutMe">Sobre mí</a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link active" href="#conocimiento">Mis conocimientos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#educacion">Educación</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+  </nav>
