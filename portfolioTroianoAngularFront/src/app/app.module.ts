@@ -22,6 +22,7 @@ import { ButtonLoginComponent } from './sections/button-login/button-login.compo
 import { LoginComponent } from './login/login.component';
 import { ButtonLogoutComponent } from './panelComponents/button-logout/button-logout.component';
 import { SigninComponent } from './signin/signin.component';
+import { ErrorComponent } from './sections/error/error.component';
 
 
 
@@ -46,7 +47,8 @@ import { SigninComponent } from './signin/signin.component';
     ButtonLoginComponent,
     LoginComponent,
     ButtonLogoutComponent,
-    SigninComponent
+    SigninComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,
