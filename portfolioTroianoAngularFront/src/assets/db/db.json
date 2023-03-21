@@ -1,0 +1,181 @@
+{
+    "profile":{
+        "bannerImg": "../assets/img/banner-montania3.png",
+        "profilePic": "../assets/img/img-presentacion.png",
+        "name": "Victoria Delfina Troiano",
+        "description": "Desarrolladora FullStack Junior. Estudiante de Analista en Sistemas. Amante del buen diseño.Emprendedora",
+        "cv": "../assets/cv/cv-troiano.pdf"
+    },
+
+    "about-me":{
+        "text": "Hola, soy Victoria Troiano. Tengo 25 años y actualmente me encuentro en mi segundo año para la carrera de Analista en Sistemas. Me interesa el diseño y la música. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero expedita sint dolorum recusandae repellendus consequatur quisquam architecto tempore laborum corporis, fugit ipsa unde amet vitae? Odio architecto labore inventore ut!"
+    },
+
+    "personal":{
+        "birthday": "11-09-1997",
+        "cellphone": 1130789213,
+        "email": "troianovicky@gmail.com",
+        "web": "www.ejemploweb.com",
+        "adress": "example adress 18023, Argentina",
+        "job": "Freelancer",
+        "study": "Analista en Sistemas"
+    },
+
+    "interests":
+    {
+        "interest1": "Dibujar",
+        "interest2": "Musica",
+        "interest3": "Viajar",
+        "interest4": "Nadar",
+        "interest5": "Trekking",
+        "interest6": "Series",
+        "interest7": "Fotos",
+        "interest8": "Juegos"
+        
+    },
+
+    "skills-front":{
+        
+        "skill1": "HTML",
+        "porcentaje1": 90,
+        "skill2": "CSS",
+        "porcentaje2": 90,
+        "skill3": "JavaScript",
+        "porcentaje3": 70,
+        "skill4": "TypeScript",
+        "porcentaje4": 60,
+        "skill5": "Angular",
+        "porcentaje5": 60
+        
+    },
+
+    "skills-back":{
+        
+        "skill1": "GIT",
+        "porcentaje1": 60,
+        "skill2": "NODE.JS",
+        "porcentaje2": 60,
+        "skill3": "MYSQL",
+        "porcentaje3": 60,
+        "skill4": "PHP",
+        "porcentaje4": 70,
+        "skill5": "Java",
+        "porcentaje5": 80
+        
+    },
+
+    "skills-idiomas":{
+        
+        "skill1": "Español",
+        "porcentaje1": 100,
+        "skill2": "Inglés",
+        "porcentaje2": 97,
+        "skill3": "Portugués",
+        "porcentaje3": 40
+        
+    },
+
+    "skills-design":{
+        
+        "skill1": "Photoshop",
+        "porcentaje1": 90,
+        "skill2": "Ilustrator",
+        "porcentaje2": 70,
+        "skill3": "AdobeXD",
+        "porcentaje3": 60,
+        "skill4": "Aftereffects",
+        "porcentaje4": 70,
+        "skill5": "FIGMA",
+        "porcentaje5": 80,
+        "skill6": "Canva",
+        "porcentaje6": 80
+        
+    },
+
+    "education-formal":[
+        {
+            "id": 1,
+            "img-informal": "../assets/img/logo-mise.png",
+            "title": "Educación Secundaria Obligatoria",
+            "institution": "Nuestra Señora de la Misericordia",
+            "period": "2010-2015"
+
+        },
+
+        {
+            "id": 2,
+            "img-informal": "../assets/img/logo-ens6.png",
+            "title": "Tecnica en Producción de Indumentaria",
+            "institution": "Escuela Normal Superior N°6 'Vicente Lopez y Planes'",
+            "period": "2015-2021"
+
+        },
+
+        {
+            "id": 3,
+            "img-informal": "../assets/img/logo-dv.png",
+            "title": "Analista en Sistemas",
+            "institution": "Escuela de Arte Multimedial Da Vinci",
+            "period": "2022-2024"
+
+        }
+    ],
+
+    "education-informal":[
+        {
+            "id": 1,
+            "img-informal": "../assets/img/logo-p18.png",
+            "title": "Curso de Experiencia de Usuario",
+            "institution": "Puerta 18",
+            "period": "2022-2022"
+
+        },
+
+        {
+            "id": 2,
+            "title": "Curso de Audaces",
+            "img-informal": "../assets/img/logo-ens6.png",
+            "institution": "Escuela Normal Superior N°6 'Vicente Lopez y Planes'",
+            "period": "2018-2018"
+
+        }
+
+    ],
+
+    "projects":[
+        {
+            "id": 1,
+            "projectImg": "../assets/img/card-1.jpg",
+            "titleProject": "Diseño de Banners",
+            "descriptionProject": "Tanto para Youtube como para diversas plataformas.",
+            "linkProject": "https://github.com/",
+            "githubProject": "https://github.com/"
+        },
+        {
+            "id": 2,
+            "projectImg": "../assets/img/card-1.jpg",
+            "titleProject": "Diseño de Banners",
+            "descriptionProject": "Tanto para Youtube como para diversas plataformas.",
+            "linkProject": "https://github.com/",
+            "githubProject": "https://github.com/"
+        },
+        {
+            "id": 3,
+            "projectImg": "../assets/img/card-1.jpg",
+            "titleProject": "Diseño de Banners",
+            "descriptionProject": "Tanto para Youtube como para diversas plataformas.",
+            "linkProject": "https://github.com/",
+            "githubProject": "https://github.com/"
+        },
+        {
+            "id": 4,
+            "projectImg": "../assets/img/card-1.jpg",
+            "titleProject": "Diseño de Banners",
+            "descriptionProject": "Tanto para Youtube como para diversas plataformas.",
+            "linkProject": "https://github.com/",
+            "githubProject": "https://github.com/"
+        }
+    ]
+
+
+}
