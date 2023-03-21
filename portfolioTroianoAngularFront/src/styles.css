@@ -174,3 +174,68 @@ a.sign-in-link-span:hover{
     color: #34586b;   
     
 }
+
+
+/** Formularios edit **/
+
+form.panel-form{
+    background-color: rgb(129, 176, 171);
+    /**text-align: -webkit-center;**/
+    /*width: 100%;*/
+    background-color: rgb(129, 176, 171);
+    text-align: -webkit-center;
+    /* padding: 20px; */
+    border-radius: 20px;
+    margin-left: 12px;
+    width: 90%;
+}
+
+div.input-button{
+    display: flex;
+    justify-content: center;
+}
+
+button.btn-form-bg{
+    
+    border-radius: 20px;
+    color: antiquewhite;
+    background-color: #92c0bb;
+    border: none;
+    font-size: small;
+    font-family: "Merriweather Sans", sans-serif;   
+}
+
+button.btn-form-bg-blue{
+    
+    border-radius: 20px;
+    color: antiquewhite;
+    background-color: #5e7ed8;
+    border: none;
+    font-size: small;
+    font-family: "Merriweather Sans", sans-serif;   
+}
+
+button.btn-form-bg-red{
+    border-radius: 20px;
+    color: antiquewhite;
+    background-color: #e16985;
+    border: none;
+    font-size: small;
+    font-family: "Merriweather Sans", sans-serif;   
+}
+
+button.btn-form-bg-green{
+    border-radius: 20px;
+    color: antiquewhite;
+    background-color: #368a79;
+    border: none;
+    font-size: small;
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+h6.input-panel{
+    text-align: -webkit-left;
+    padding-left: 9px;
+    color: #0a405e;
+    font-weight: bold;
+}

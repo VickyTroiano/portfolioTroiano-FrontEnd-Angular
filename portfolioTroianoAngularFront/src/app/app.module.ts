@@ -25,6 +25,15 @@ import { SigninComponent } from './signin/signin.component';
 import { ErrorComponent } from './sections/error/error.component';
 import { PruebaNavbarComponent } from './sections/prueba-navbar/prueba-navbar.component';
 import { PruebaComponent } from './sections/prueba/prueba.component';
+import { VerticalNavbarPanelComponent } from './panelComponents/vertical-navbar-panel/vertical-navbar-panel.component';
+import { SocialEditPanelComponent } from './panelComponents/social-edit-panel/social-edit-panel.component';
+import { BannerEditPanelComponent } from './panelComponents/banner-edit-panel/banner-edit-panel.component';
+import { ProfileEditPanelComponent } from './panelComponents/profile-edit-panel/profile-edit-panel.component';
+import { AboutEditPanelComponent } from './panelComponents/about-edit-panel/about-edit-panel.component';
+import { PersonalEditPanelComponent } from './panelComponents/personal-edit-panel/personal-edit-panel.component';
+import { KnowledgeEditPanelComponent } from './panelComponents/knowledge-edit-panel/knowledge-edit-panel.component';
+import { EducationEditPanelComponent } from './panelComponents/education-edit-panel/education-edit-panel.component';
+import { ProjectsEditPanelComponent } from './panelComponents/projects-edit-panel/projects-edit-panel.component';
 
 
 
@@ -52,7 +61,16 @@ import { PruebaComponent } from './sections/prueba/prueba.component';
     SigninComponent,
     ErrorComponent,
     PruebaNavbarComponent,
-    PruebaComponent
+    PruebaComponent,
+    VerticalNavbarPanelComponent,
+    SocialEditPanelComponent,
+    BannerEditPanelComponent,
+    ProfileEditPanelComponent,
+    AboutEditPanelComponent,
+    PersonalEditPanelComponent,
+    KnowledgeEditPanelComponent,
+    EducationEditPanelComponent,
+    ProjectsEditPanelComponent
   ],
   imports: [
     BrowserModule,

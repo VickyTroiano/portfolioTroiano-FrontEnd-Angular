@@ -17,6 +17,7 @@
     background-repeat: no-repeat; 
     background-size: cover;
     background-position: center;
+    font-family: "Merriweather Sans", sans-serif;
 }
 
 .container-panel{
@@ -36,12 +37,6 @@
 
 }
 
-li.list-group-item.list-group-item-dark{
-    background-color: #81b0ab;
-    border: none;
-    color: #0b4f73;
-    font-family: "Merriweather Sans", sans-serif;
-}
 
 .list-group-link{
     text-decoration: none;
@@ -50,37 +45,6 @@ li.list-group-item.list-group-item-dark{
 
 .list-group-link:hover{
     color: #0b4f73;
-}
-
-form.panel-form{
-    background-color: rgb(129, 176, 171);
-    /**text-align: -webkit-center;**/
-    /*width: 100%;*/
-    background-color: rgb(129, 176, 171);
-    text-align: -webkit-center;
-    /* padding: 20px; */
-    border-radius: 20px;
-    margin-left: 12px;
-    width: 90%;
-}
-
-nav.vertical{
-    float: left;
-    margin-left: -2rem;
-    height: 80vh;
-    padding: 1px;
-    margin-top: 1.5rem;
-    
-}
-
-li.vertical{
-    display: block;
-    margin: 0;
-    writing-mode: vertical;
-    padding: 15px 0;
-    /** alinea los iconos en el centro el justify y flex **/
-    justify-content: center;
-    display: flex;
 }
 
 a.panel-a{
@@ -114,54 +78,4 @@ li.vertical.list-group-item.list-group-item-action{
     justify-content: center;
     display: flex;
 
-}
-
-div.input-button{
-    display: flex;
-    justify-content: center;
-}
-
-button.btn-form-bg{
-    
-    border-radius: 20px;
-    color: antiquewhite;
-    background-color: #92c0bb;
-    border: none;
-    font-size: small;
-    font-family: "Merriweather Sans", sans-serif;   
-}
-
-button.btn-form-bg-blue{
-    
-    border-radius: 20px;
-    color: antiquewhite;
-    background-color: #5e7ed8;
-    border: none;
-    font-size: small;
-    font-family: "Merriweather Sans", sans-serif;   
-}
-
-button.btn-form-bg-red{
-    border-radius: 20px;
-    color: antiquewhite;
-    background-color: #e16985;
-    border: none;
-    font-size: small;
-    font-family: "Merriweather Sans", sans-serif;   
-}
-
-button.btn-form-bg-green{
-    border-radius: 20px;
-    color: antiquewhite;
-    background-color: #368a79;
-    border: none;
-    font-size: small;
-    font-family: "Merriweather Sans", sans-serif;
-}
-
-h6.input-panel{
-    text-align: -webkit-left;
-    padding-left: 9px;
-    color: #0a405e;
-    font-weight: bold;
 }

@@ -1,0 +1,28 @@
+
+li.list-group-item.list-group-item-dark{
+    background-color: #81b0ab;
+    border: none;
+    color: #0b4f73;
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+
+
+nav.vertical{
+    float: left;
+    margin-left: -2rem;
+    height: 80vh;
+    padding: 1px;
+    margin-top: 1.5rem;
+    
+}
+
+li.vertical{
+    display: block;
+    margin: 0;
+    writing-mode: vertical;
+    padding: 15px 0;
+    /** alinea los iconos en el centro el justify y flex **/
+    justify-content: center;
+    display: flex;
+}
