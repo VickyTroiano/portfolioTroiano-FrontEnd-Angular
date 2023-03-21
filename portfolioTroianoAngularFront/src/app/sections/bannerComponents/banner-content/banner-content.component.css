@@ -4,6 +4,8 @@ div.banner-content-rectangle{
     background-color: rgb(154, 198, 194, .5);
     border-radius: 15%;
     /**height: 90vh;**/
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -17,6 +19,7 @@ div.banner-content-rectangle{
     font-family: 'Merriweather Sans', sans-serif;
     padding: 2%;
     box-shadow: 1px 2px 7px rgb(14 26 28);
+    
 }
 
 .button-cv:hover {
@@ -50,7 +53,8 @@ img.img-person{
 .banner-text {
     color: rgb(11, 65, 113);
     text-align: center;
-    
+    align-items: center;
+    justify-content: center;
 }
 
 h1.banner-text-name{
@@ -59,6 +63,14 @@ h1.banner-text-name{
 }
 
 
-p.banner-text-parraph {
+ul.banner-text-parraph {
     font-family: 'Merriweather Sans', sans-serif;
+    align-items: center;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    align-items: center; 
+    padding-left: 0;
+    margin-bottom: 4px;
 }
+
