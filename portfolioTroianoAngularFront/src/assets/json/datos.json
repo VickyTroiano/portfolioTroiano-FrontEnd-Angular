@@ -1,17 +1,22 @@
+
+
 {
-    "profile":{
-        "bannerImg": "../assets/img/banner-montania3.png",
-        "profilePic": "../assets/img/img-presentacion.png",
+    "profile":
+    {
+        "bannerImg": "assets/img/banner-montania3.png",
+        "profilePic": "assets/img/img-presentacion.png",
         "name": "Victoria Delfina Troiano",
         "description": "Desarrolladora FullStack Junior. Estudiante de Analista en Sistemas. Amante del buen diseño.Emprendedora",
-        "cv": "../assets/cv/cv-troiano.pdf"
+        "cv": "assets/cv/cv-troiano.pdf"
     },
 
-    "about-me":{
+    "about-me":
+    {
         "text": "Hola, soy Victoria Troiano. Tengo 25 años y actualmente me encuentro en mi segundo año para la carrera de Analista en Sistemas. Me interesa el diseño y la música. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero expedita sint dolorum recusandae repellendus consequatur quisquam architecto tempore laborum corporis, fugit ipsa unde amet vitae? Odio architecto labore inventore ut!"
     },
 
-    "personal":{
+    "personal":
+    {
         "birthday": "11-09-1997",
         "cellphone": 1130789213,
         "email": "troianovicky@gmail.com",
@@ -34,7 +39,8 @@
         
     },
 
-    "skills-front":{
+    "skills-front":
+    {
         
         "skill1": "HTML",
         "porcentaje1": 90,
@@ -49,7 +55,8 @@
         
     },
 
-    "skills-back":{
+    "skills-back":
+    {
         
         "skill1": "GIT",
         "porcentaje1": 60,
@@ -75,7 +82,8 @@
         
     },
 
-    "skills-design":{
+    "skills-design":
+    {
         
         "skill1": "Photoshop",
         "porcentaje1": 90,
@@ -94,8 +102,8 @@
 
     "education-formal":[
         {
-            "id": 1,
-            "img-informal": "../assets/img/logo-mise.png",
+            "id": 0,
+            "img-informal": "assets/img/logo-mise.png",
             "title": "Educación Secundaria Obligatoria",
             "institution": "Nuestra Señora de la Misericordia",
             "period": "2010-2015"
@@ -103,8 +111,8 @@
         },
 
         {
-            "id": 2,
-            "img-informal": "../assets/img/logo-ens6.png",
+            "id": 1,
+            "img-informal": "assets/img/logo-ens6.png",
             "title": "Tecnica en Producción de Indumentaria",
             "institution": "Escuela Normal Superior N°6 'Vicente Lopez y Planes'",
             "period": "2015-2021"
@@ -112,8 +120,8 @@
         },
 
         {
-            "id": 3,
-            "img-informal": "../assets/img/logo-dv.png",
+            "id": 2,
+            "img-informal": "assets/img/logo-dv.png",
             "title": "Analista en Sistemas",
             "institution": "Escuela de Arte Multimedial Da Vinci",
             "period": "2022-2024"
@@ -123,8 +131,8 @@
 
     "education-informal":[
         {
-            "id": 1,
-            "img-informal": "../assets/img/logo-p18.png",
+            "id": 3,
+            "img-informal": "assets/img/logo-p18.png",
             "title": "Curso de Experiencia de Usuario",
             "institution": "Puerta 18",
             "period": "2022-2022"
@@ -132,9 +140,9 @@
         },
 
         {
-            "id": 2,
+            "id": 4,
             "title": "Curso de Audaces",
-            "img-informal": "../assets/img/logo-ens6.png",
+            "img-informal": "assets/img/logo-ens6.png",
             "institution": "Escuela Normal Superior N°6 'Vicente Lopez y Planes'",
             "period": "2018-2018"
 
@@ -144,8 +152,16 @@
 
     "projects":[
         {
+            "id": 0,
+            "projectImg": "assets/img/card-1.jpg",
+            "titleProject": "Diseño de Banners",
+            "descriptionProject": "Tanto para Youtube como para diversas plataformas.",
+            "linkProject": "https://github.com/",
+            "githubProject": "https://github.com/"
+        },
+        {
             "id": 1,
-            "projectImg": "../assets/img/card-1.jpg",
+            "projectImg": "assets/img/card-1.jpg",
             "titleProject": "Diseño de Banners",
             "descriptionProject": "Tanto para Youtube como para diversas plataformas.",
             "linkProject": "https://github.com/",
@@ -153,7 +169,7 @@
         },
         {
             "id": 2,
-            "projectImg": "../assets/img/card-1.jpg",
+            "projectImg": "assets/img/card-1.jpg",
             "titleProject": "Diseño de Banners",
             "descriptionProject": "Tanto para Youtube como para diversas plataformas.",
             "linkProject": "https://github.com/",
@@ -161,15 +177,7 @@
         },
         {
             "id": 3,
-            "projectImg": "../assets/img/card-1.jpg",
-            "titleProject": "Diseño de Banners",
-            "descriptionProject": "Tanto para Youtube como para diversas plataformas.",
-            "linkProject": "https://github.com/",
-            "githubProject": "https://github.com/"
-        },
-        {
-            "id": 4,
-            "projectImg": "../assets/img/card-1.jpg",
+            "projectImg": "assets/img/card-1.jpg",
             "titleProject": "Diseño de Banners",
             "descriptionProject": "Tanto para Youtube como para diversas plataformas.",
             "linkProject": "https://github.com/",

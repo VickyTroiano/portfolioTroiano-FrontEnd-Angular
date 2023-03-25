@@ -1,6 +1,13 @@
+//importar modulos
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
+
+//importar los servicios - va en providers
+//import { DatosService } from './services/datos.service';
+
+//importar componentes - me los trae solitos angular schematics
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './sections/navbarComponents/navbar/navbar.component';
@@ -37,6 +44,7 @@ import { ProjectsEditPanelComponent } from './panelComponents/projects-edit-pane
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -70,11 +78,14 @@ import { ProjectsEditPanelComponent } from './panelComponents/projects-edit-pane
     PersonalEditPanelComponent,
     KnowledgeEditPanelComponent,
     EducationEditPanelComponent,
-    ProjectsEditPanelComponent
+    ProjectsEditPanelComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule  
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
