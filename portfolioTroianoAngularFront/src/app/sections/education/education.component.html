@@ -8,9 +8,9 @@
                     <div class="col-md-6">
                         <div class="container-education">
                             <div class="text-box-skills">
-                                <div class="space-between">
-                                    <i class="fa-solid fa-school-flag fa-5x"></i>
-                                </div>
+                                
+                                <i class="fa-solid fa-school-flag fa-5x space-between"></i>
+                                
                                 
                                 <h3>Formal</h3>
                                 <hr>
@@ -18,56 +18,22 @@
                                     
                                     <div class="container">
                                        
-                                        <div class="row education-row">
+                                        <div class="row education-row" *ngFor="let education of formalEducation">
                                                 <div class="col-4">
-                                                    <img class="img-education img-fluid" src="assets/img/logo-mise.PNG" alt="Logo colegio Nuestra Señora de la Misericordia">
+                                                    <img [src]="education.img_formal" [alt]="education.title_img" class="img-education img-fluid">
                                                 </div>
                                             <div class="col-8 education-formal">
                                                 
-                                                <h4 class="education-title-1">Educación Secundaria Obligatoria</h4>
-                                                <h6 class="education-title-2">Escuela Nuestra Señora de la Misericordia</h6>
-                                                <h6 class="education-title-3">2010-2015</h6>
+                                                <h4 class="education-title-1">{{education.title}}</h4>
+                                                <h6 class="education-title-2">{{education.institution}}</h6>
+                                                <h6 class="education-title-3">{{education.period}}</h6>
                                             </div>
                                         </div>   
-                                        <hr>
-                                        <div class="row education-row">
-                                            <div class="col-4">
-                                                <img class="img-education img-fluid" src="assets/img/logo-ens6.png" alt="Logo Normal 6">
-                                            </div>
-                                            
-                                            <div class="col-8 education-formal">
-                                                <h4 class="education-title-1">Técnica en Producción de Indumentaria</h4>
-                                               
-                                                <h6 class="education-title-2">Escuela Normal Superior N°6 "Vicente Lopez y Planes"</h6>
-                                                <h6 class="education-title-3">2015-2021</h6>
-                                            </div>
-                                        </div>
-                                        <hr>
-                                        <div class="row education-row">
-                                            <div class="col-4">
-                                                <img class="img-education img-fluid" src="assets/img/logo-dv.png" alt="Logo Escuela Da Vinci">
-                                            </div>
-                                            
-                                            <div class="col-8 education-formal">
-                                                <h4 class="education-title-1">Analista en Sistemas</h4>
-                                                <h6 class="education-title-2">Escuela de Arte Multimedial Da Vinci</h6>
-                                                <h6 class="education-title-3">2022-2024</h6>
-                                            </div>
-                                        </div>
-
-                                         
-                                        
-                                            
-                                       
-                                        
-                                    </div>
-                                    
-                                    
-                                    
+                                        <hr>   
+                                    </div> 
                                     
                                 </div>
-                                
-                                              
+                         
                             </div>
 
                         </div>
@@ -85,32 +51,19 @@
                                 
                                 <div class="container">
                                    
-                                    <div class="row education-row">
-                                            <div class="col-4">
-                                                
-                                                <img class="img-education img-fluid" src="assets/img/logo-p18.png" alt="Logo colegio Nuestra Señora de la Misericordia">
-                                            </div>
+                                    <div class="row education-row" *ngFor="let education2 of informalEducation">
+                                        <div class="col-4">
+                                            <img [src]="education2.img_informal" [alt]="education2.title_img" class="img-education img-fluid">
+                                        </div>
                                         <div class="col-8 education-formal">
                                             
-                                            <h4 class="education-title-1">Curso de Experiencia de Usuario</h4>
-                                            <h6 class="education-title-2">Puerta 18</h6>
-                                            <h6 class="education-title-3">2022-2022</h6>
+                                            <h4 class="education-title-1">{{education2.title}}</h4>
+                                            <h6 class="education-title-2">{{education2.institution}}</h6>
+                                            <h6 class="education-title-3">{{education2.period}}</h6>
                                         </div>
                                     </div>   
                                     <hr>
-                                    <div class="row education-row">
-                                        <div class="col-4">
-                                            <img class="img-education img-fluid" src="assets/img/logo-ens6.png" alt="Logo Normal 6">
-                                        </div>
-                                        
-                                        <div class="col-8 education-formal">
-                                            <h4 class="education-title-1">Curso de Audaces</h4>
-                                           
-                                            <h6 class="education-title-2">Escuela Normal Superior N°6 "Vicente Lopez y Planes"</h6>
-                                            <h6 class="education-title-3">2018-2018</h6>
-                                        </div>
-                                    </div>
-                                    <hr>
+                                    
                                      
                                     
                                 </div>
@@ -135,8 +88,4 @@
     
 
     </div>
-
-
-    
-
-  </section>
+</section>
