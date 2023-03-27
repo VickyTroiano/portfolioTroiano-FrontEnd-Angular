@@ -307,33 +307,49 @@
             "id": 0,
             "projectImg": "assets/img/card-1.jpg",
             "titleProject": "Diseño de Banners",
+            "title_img": "Proyecto 1",
+            "yearProject": 2022,
             "descriptionProject": "Tanto para Youtube como para diversas plataformas.",
             "linkProject": "https://github.com/",
-            "githubProject": "https://github.com/"
+            "githubProject": "https://github.com/",
+            "icon_web": "fa-solid fa-globe",
+            "icon_github": "fa-brands fa-github"
         },
         {
             "id": 1,
             "projectImg": "assets/img/card-1.jpg",
-            "titleProject": "Diseño de Banners",
-            "descriptionProject": "Tanto para Youtube como para diversas plataformas.",
+            "titleProject": "Diseño de Remeras",
+            "title_img": "Proyecto 2",
+            "yearProject": 2022,
+            "descriptionProject": "Realizadas con la técnica de serigrafía.",
             "linkProject": "https://github.com/",
-            "githubProject": "https://github.com/"
+            "githubProject": "https://github.com/",
+            "icon_web": "fa-solid fa-globe",
+            "icon_github": "fa-brands fa-github"
         },
         {
             "id": 2,
             "projectImg": "assets/img/card-1.jpg",
-            "titleProject": "Diseño de Banners",
-            "descriptionProject": "Tanto para Youtube como para diversas plataformas.",
+            "titleProject": "Diseño de Logos",
+            "title_img": "Proyecto 3",
+            "yearProject": 2022,
+            "descriptionProject": "Realizados con Photoshop e Ilustrator.",
             "linkProject": "https://github.com/",
-            "githubProject": "https://github.com/"
+            "githubProject": "https://github.com/",
+            "icon_web": "fa-solid fa-globe",
+            "icon_github": "fa-brands fa-github"
         },
         {
             "id": 3,
             "projectImg": "assets/img/card-1.jpg",
-            "titleProject": "Diseño de Banners",
-            "descriptionProject": "Tanto para Youtube como para diversas plataformas.",
+            "titleProject": "Diseño de covers para LP'S",
+            "title_img": "Proyecto 4",
+            "yearProject": 2022,
+            "descriptionProject": "Diseños realizados mediante la técnica de collage digital.",
             "linkProject": "https://github.com/",
-            "githubProject": "https://github.com/"
+            "githubProject": "https://github.com/",
+            "icon_web": "fa-solid fa-globe",
+            "icon_github": "fa-brands fa-github"
         }
     ]
 
