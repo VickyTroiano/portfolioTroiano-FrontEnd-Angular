@@ -5,12 +5,20 @@
     {
         "bannerImg": "assets/img/banner-montania3.png",
         "profilePic": "assets/img/img-presentacion.png",
+        "title": "Foto de presentacion",
         "name": "Victoria Delfina Troiano",
-        "description": "Desarrolladora FullStack Junior. Estudiante de Analista en Sistemas. Amante del buen diseño.Emprendedora",
         "cv": "assets/cv/cv-troiano.pdf"
     },
 
-    "about-me":
+    "description_item":{
+        "item1": "Desarrolladora FullStack Junior.",
+        "item2": "Estudiante de Analista en Sistemas.",
+        "item3": "Amante del buen diseño.",
+        "item4": "Emprendedora."
+
+    },
+
+    "about_me":
     {
         "text": "Hola, soy Victoria Troiano. Tengo 25 años y actualmente me encuentro en mi segundo año para la carrera de Analista en Sistemas. Me interesa el diseño y la música. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero expedita sint dolorum recusandae repellendus consequatur quisquam architecto tempore laborum corporis, fugit ipsa unde amet vitae? Odio architecto labore inventore ut!"
     },
@@ -26,46 +34,61 @@
         "study": "Analista en Sistemas"
     },
 
-    "interests": [
+    "interests1": [
         {
             "id": 1,
-            "interest": "Dibujar"
+            "interest": "Dibujar",
+            "icon": "fa-solid fa-palette"
         },
 
         {
             "id": 2,
-            "interest": "Musica"
+            "interest": "Musica",
+            "icon": "fa-solid fa-headphones"
         },
 
         {
             "id": 3,
-            "interest": "Viajar"
+            "interest": "Viajar",
+            "icon": "fa-solid fa-compass"
         },
 
         {
             "id": 4,
-            "interest": "Nadar"
-        },
+            "interest": "Nadar",
+            "icon": "fa-solid fa-person-swimming"
+        }
 
+       
+    ],
+
+    "interests2": [
         {
             "id": 5,
-            "interest": "Trekking"
+            "interest": "Trekking",
+            "icon": "fa-solid fa-person-hiking"
         },
 
         {
             "id": 6,
-            "interest": "Series"
+            "interest": "Series",
+            "icon": "fa-solid fa-tv"
         },
 
         {
             "id": 7,
-            "interest": "Fotos"
+            "interest": "Fotos",
+            "icon": "fa-solid fa-camera-retro"
+            
         },
 
         {
             "id": 8,
-            "interest": "Juegos"
+            "interest": "Juegos",
+            "icon": "fa-solid fa-gamepad"
         }
+
+       
     ],
     
 

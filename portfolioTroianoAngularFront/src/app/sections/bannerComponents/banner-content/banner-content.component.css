@@ -6,10 +6,11 @@ div.banner-content-rectangle{
     /**height: 90vh;**/
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 
-.button-cv{
+p.button-cv{
     background:antiquewhite;
     text-decoration: none;
     padding: 16px;
@@ -19,14 +20,17 @@ div.banner-content-rectangle{
     font-family: 'Merriweather Sans', sans-serif;
     padding: 2%;
     box-shadow: 1px 2px 7px rgb(14 26 28);
+    width: 50%;
+    margin: 0 auto;
     
 }
 
-.button-cv:hover {
+p.button-cv:hover {
     text-decoration: none;
     color: antiquewhite;
     background: rgb(11, 65, 113);
     transition: color 0.3s linear 0.2s;
+    cursor: pointer;
 }
 
 

@@ -13,10 +13,10 @@ export class BannerContentComponent implements OnInit {
 
       //creo variable de instancia para almacenar los datos que me traigo del servicio -2
       infoBanner:any;
+      descriptionItem:any;
 
       //inicializar variables de instancia para ser usadas en ngOnInit()
-      name: string='';
-      bannerImg: any='';
+      //bannerImg: any='';
 
       //Inyecto el servicio para poder tener acceso a los metodos -3 (alias en minuscula)
       constructor(private datosService:DatosService){}
@@ -29,8 +29,9 @@ export class BannerContentComponent implements OnInit {
         //funcion de flecha (=>) es entonces.
         this.datosService.getDatos().subscribe(datos=> {
           console.log(datos)
-          this.name = datos.profile.name;
-          this.bannerImg = datos.profile.bannerImg;
+          // this.bannerImg = datos.profile.bannerImg;
+          this.infoBanner = datos.profile;
+          this.descriptionItem = datos.description_item;
         });
 	    }
 }

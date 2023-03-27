@@ -1,20 +1,20 @@
 <div class="banner-content-rectangle">
     <div class="banner-content">
         <div class="img-container">
-            <img class="img-person img-fluid" src="assets/img/img-presentacion.png" alt="Foto de presentacion">
+            <img [src]="infoBanner.profilePic" [alt]="infoBanner.title" class="img-person img-fluid" >
         </div>
         <div class="banner-text">
 
-            <h1 class="banner-text-name">{{name}}</h1>
+            <h1 class="banner-text-name">{{infoBanner.name}}</h1>
             <ul class="banner-text-parraph">
-                    <li>Desarrolladora FullStack Junior</li>
-                    <li>Estudiante de Analista en Sistemas</li>
-                    <li>Amante del buen diseño</li>
-                    <li>Emprendedora</li>
+                    <li>{{descriptionItem.item1}}</li>
+                    <li>{{descriptionItem.item2}}</li>
+                    <li>{{descriptionItem.item3}}</li>
+                    <li>{{descriptionItem.item4}}</li>
                    
             </ul>
             
-            <p class="mt-3 banner-text-parraph"> <a href="https://www.constructionequipment.com/sites/ce/files/styles/content/public/International-MV-truck.jpg?itok=xllmxO7e" class="button-cv" download>Descargar CV<i class="fa-solid fa-download"></i><span class="overlay"></span></a></p>
+            <p class="mt-3 banner-text-parraph button-cv" download>Descargar CV<i class="fa-solid fa-download"></i><span class="overlay"></span></p>
     
         </div> 
 
