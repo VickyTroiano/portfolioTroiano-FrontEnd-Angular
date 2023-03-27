@@ -16,75 +16,22 @@
                                         <i class="fa-solid fa-eye fa-5x"></i>
                                         <h3>Front End</h3>
                                         <hr>
-                                        <div class="skill-box">
-                                            <div class="space-between">
-                                                <i class="fa-brands fa-html5 fa-2xl"></i>
-                                            </div>
+                                        <!-- skill puede llamarse de otra forma -->
+                                        <div class="skill-box" *ngFor="let skill of infoSkillFront">
                                             
-                                            <strong>HTML5</strong>
+                                            <i class="{{skill.icon}}"></i>
                                             
                                             
+                                            <strong>{{skill.skill}}</strong>
+                                            
+                                            <!-- iteración sobre la variable de instancia y presentación de los datos mediante interpolación -->
                                             <!-- barra -->
-                                            
                                             <div class="meter">
-                                                <span style="width:95%;"><span class="progress"><span class="number-perc">90%</span></span></span>
+                                                <span [style.width.%]="skill.porcentaje"><span class="progress"><span class="number-perc">{{skill.porcentaje}}%</span></span></span>
                                             </div>
                                             
                                         </div>
-                                        <div class="skill-box">
-                                            <div class="space-between">
-                                                <i class="fa-brands fa-css3-alt fa-2xl"></i>
-                                            </div>
-                                            
-                                            <strong>CSS3</strong>
-                                            <!-- barra -->
-                                            
-                                            <div class="meter">
-                                                <span style="width:90%;"><span class="progress"><span class="number-perc">90%</span></span></span>
-                                            </div>
-                                            
-                                            
-                                        </div>
-                                        <div class="skill-box">
-                                            <div class="space-between">
-                                                <i class="fa-brands fa-square-js fa-2xl"></i>
-                                            </div>
-                                           
-                                            <strong>JavaScript</strong>
-                                            <!-- barra -->
-                                            
-                                            <div class="meter">
-                                                <span style="width:70%;"><span class="progress"><span class="number-perc">70%</span></span></span>
-                                            </div>
-                                            
-                                            
-                                        </div>
-                                        <div class="skill-box">
-                                            <div class="space-between">
-                                                <i class="fa-regular fa-window-maximize fa-2xl"></i>
-                                            </div>
-                                            
-                                            <strong>TypeScript</strong>
-                                            <!-- barra -->
-                                            
-                                            <div class="meter">
-                                                <span style="width:60%;"><span class="progress"><span class="number-perc">60%</span></span></span>
-                                            </div>
-                                            
-                                            
-                                        </div>
-                                        <div class="skill-box">
-                                            <div class="space-between">
-                                                <i class="fa-brands fa-angular fa-2xl"></i>
-                                            </div>
-                                            
-                                            <strong>Angular</strong>
-                                            <div class="meter">
-                                                <span style="width:60%;"><span class="progress"><span class="number-perc">60%</span></span></span>
-                                            </div>
-                                            
-                                            
-                                        </div>
+                                        
                                         
                                     </div>
         
@@ -98,67 +45,21 @@
                                         <i class="fa-solid fa-database fa-5x"></i>
                                         <h3>Back End</h3>
                                         <hr>
-                                        <div class="skill-box">
-                                            <div class="space-between">
-                                                <i class="fa-brands fa-git-alt fa-2xl"></i>
-                                            </div>
+                                        <div class="skill-box" *ngFor="let skill of infoSkillBack">
                                             
-                                            <strong>GIT</strong>
+                                            <i class="{{skill.icon}}"></i>
+                                            
+                                            
+                                            <strong>{{skill.skill}}</strong>
                                             <div class="meter">
-                                                <span style="width:60%;"><span class="progress"><span class="number-perc">60%</span></span></span>
+                                                <span [style.width.%]="skill.porcentaje"><span class="progress"><span class="number-perc">{{skill.porcentaje}}%</span></span></span>
                                             </div>
                                            
                                             
                                         </div>
-                                        <div class="skill-box">
-                                            <div class="space-between">
-                                                <i class="fa-brands fa-node-js fa-2xl"></i>
-                                            </div>
-                                            
-                                            <strong>NODE.JS</strong>
-                                            <div class="meter">
-                                                <span style="width:60%;"><span class="progress"><span class="number-perc">60%</span></span></span>
-                                            </div>
-                                            
-                                            
-                                        </div>
-                                        <div class="skill-box">
-                                            <div class="space-between">
-                                                <i class="fa-solid fa-database fa-2xl"></i>
-                                            </div>
-                                            
-                                            <strong>MYSQL</strong>
-                                            <div class="meter">
-                                                <span style="width:60%;"><span class="progress"><span class="number-perc">60%</span></span></span>
-                                            </div>
-                                            
-                                            
-                                        </div>
-                                        <div class="skill-box">
-                                            <div class="space-between">
-                                                <i class="fa-brands fa-php fa-2xl"></i>
-                                            </div>
-                                            
-                                            <strong>PHP</strong>
-                                            <div class="meter">
-                                                <span style="width:70%;"><span class="progress"><span class="number-perc">70%</span></span></span>
-                                            </div>
-                                           
-                                            
-                                        </div>
-                                        <div class="skill-box">
-                                            <div class="space-between">
-                                                <i class="fa-brands fa-java fa-2xl"></i>
-                                            </div>
-                                            
-                                            <strong>Java</strong>
-                                            <div class="meter">
-                                                <span style="width:80%;"><span class="progress"><span class="number-perc">80%</span></span></span>
-                                            </div>
-                                            
-                                            
-                                        </div>
-            
+                                        
+                                    
+                                              
                                     </div>
         
                                 </div>
@@ -187,53 +88,20 @@
                                         <i class="fa-solid fa-language fa-5x"></i>
                                         <h3>Idiomas</h3>
                                         <hr>
-                                        <div class="skill-box">
-                                            <div class="space-between">
-                                                <i class="fa-solid fa-circle-check fa-2xl"></i>
-                                            </div>
+                                        <div class="skill-box" *ngFor="let skill of infoSkillLang">
                                             
-                                            <strong>ESPAÑOL</strong>
+                                            <i class="{{skill.icon}}"></i>
                                             
-                                            
-                                            <!-- barra -->
+                                            <strong>{{skill.skill}}</strong>
+                            
                                             
                                             <div class="meter">
-                                                <span style="width:100%;"><span class="progress"><span class="number-perc">100%</span></span></span>
+                                                <span [style.width.%]="skill.porcentaje"><span class="progress"><span class="number-perc">{{skill.porcentaje}}%</span></span></span>
                                             </div>
-                                            
-                                        </div>
-                                        <div class="skill-box">
-                                            <div class="space-between">
-                                                
-                                                <i class="fa-solid fa-circle-check fa-2xl"></i>
-                                            </div>
-                                            
-                                            <strong>INGLÉS</strong>
-                                            <!-- barra -->
-                                            
-                                            <div class="meter">
-                                                <span style="width:97%;"><span class="progress"><span class="number-perc">97%</span></span></span>
-                                            </div>
-                                            
-                                            
-                                        </div>
-                                        <div class="skill-box">
-                                            <div class="space-between">
-                                                <i class="fa-solid fa-circle-check fa-2xl"></i>
-                                                
-                                            </div>
-                                           
-                                            <strong>PORTUGUÉS</strong>
-                                            <!-- barra -->
-                                            
-                                            <div class="meter">
-                                                <span style="width:40%;"><span class="progress"><span class="number-perc">40%</span></span></span>
-                                            </div>
-                                            
                                             
                                         </div>
                                         
-                                        
+                             
                                     </div>
         
                                 </div>
@@ -246,84 +114,17 @@
                                         <i class="fa-solid fa-toolbox fa-5x"></i>
                                         <h3>Herramientas de diseño</h3>
                                         <hr>
-                                        <div class="skill-box">
-                                            <div class="space-between">
-                                                <i class="fa-solid fa-layer-group fa-2xl"></i>
-                                                
-                                                
-                                            </div>
+                                        <div class="skill-box" *ngFor="let skill of infoSkillDesign">
+                                            <i class="{{skill.icon}}"></i>
                                             
-                                            <strong>PHOTOSHOP</strong>
+                                            <strong>{{skill.skill}}</strong>
                                             <div class="meter">
-                                                <span style="width:90%;"><span class="progress"><span class="number-perc">90%</span></span></span>
+                                                <span [style.width.%]="skill.porcentaje"><span class="progress"><span class="number-perc">{{skill.porcentaje}}%</span></span></span>
                                             </div>
                                            
                                             
                                         </div>
-                                        <div class="skill-box">
-                                            <div class="space-between">
-                                                <i class="fa-solid fa-pen-nib fa-2xl"></i>
-                                            </div>
-                                            
-                                            <strong>ILUSTRATOR</strong>
-                                            <div class="meter">
-                                                <span style="width:70%;"><span class="progress"><span class="number-perc">70%</span></span></span>
-                                            </div>
-                                            
-                                            
-                                        </div>
-                                        <div class="skill-box">
-                                            <div class="space-between">
-                                                <i class="fa-solid fa-table-cells fa-2xl"></i>
-                                                
-                                            </div>
-                                            
-                                            <strong>ADOBE XD</strong>
-                                            <div class="meter">
-                                                <span style="width:60%;"><span class="progress"><span class="number-perc">60%</span></span></span>
-                                            </div>
-                                            
-                                            
-                                        </div>
-                                        <div class="skill-box">
-                                            <div class="space-between">
-                                                <i class="fa-solid fa-person-running fa-2xl"></i>
-                                                
-                                            </div>
-                                            
-                                            <strong>AFTEREFFECTS</strong>
-                                            <div class="meter">
-                                                <span style="width:70%;"><span class="progress"><span class="number-perc">70%</span></span></span>
-                                            </div>
-                                           
-                                            
-                                        </div>
-                                        <div class="skill-box">
-                                            <div class="space-between">
-                                                <i class="fa-brands fa-figma fa-2xl"></i>
-                                                
-                                            </div>
-                                            
-                                            <strong>FIGMA</strong>
-                                            <div class="meter">
-                                                <span style="width:80%;"><span class="progress"><span class="number-perc">80%</span></span></span>
-                                            </div>
-                                            
-                                            
-                                        </div>
-                                        <div class="skill-box">
-                                            <div class="space-between">
-                                                <i class="fa-solid fa-sheet-plastic fa-2xl"></i>
-                                                
-                                            </div>
-                                            
-                                            <strong>CANVA</strong>
-                                            <div class="meter">
-                                                <span style="width:80%;"><span class="progress"><span class="number-perc">80%</span></span></span>
-                                            </div>
-                                            
-                                            
-                                        </div>
+                                        
             
                                     </div>
         

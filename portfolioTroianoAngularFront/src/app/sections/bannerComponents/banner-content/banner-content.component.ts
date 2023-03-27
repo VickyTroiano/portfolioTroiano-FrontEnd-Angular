@@ -16,6 +16,7 @@ export class BannerContentComponent implements OnInit {
 
       //inicializar variables de instancia para ser usadas en ngOnInit()
       name: string='';
+      bannerImg: any='';
 
       //Inyecto el servicio para poder tener acceso a los metodos -3 (alias en minuscula)
       constructor(private datosService:DatosService){}
@@ -29,6 +30,7 @@ export class BannerContentComponent implements OnInit {
         this.datosService.getDatos().subscribe(datos=> {
           console.log(datos)
           this.name = datos.profile.name;
+          this.bannerImg = datos.profile.bannerImg;
         });
 	    }
 }

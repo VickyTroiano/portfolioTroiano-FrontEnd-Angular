@@ -26,79 +26,201 @@
         "study": "Analista en Sistemas"
     },
 
-    "interests":
-    {
-        "interest1": "Dibujar",
-        "interest2": "Musica",
-        "interest3": "Viajar",
-        "interest4": "Nadar",
-        "interest5": "Trekking",
-        "interest6": "Series",
-        "interest7": "Fotos",
-        "interest8": "Juegos"
-        
-    },
+    "interests": [
+        {
+            "id": 1,
+            "interest": "Dibujar"
+        },
 
-    "skills-front":
-    {
-        
-        "skill1": "HTML",
-        "porcentaje1": 90,
-        "skill2": "CSS",
-        "porcentaje2": 90,
-        "skill3": "JavaScript",
-        "porcentaje3": 70,
-        "skill4": "TypeScript",
-        "porcentaje4": 60,
-        "skill5": "Angular",
-        "porcentaje5": 60
-        
-    },
+        {
+            "id": 2,
+            "interest": "Musica"
+        },
 
-    "skills-back":
-    {
-        
-        "skill1": "GIT",
-        "porcentaje1": 60,
-        "skill2": "NODE.JS",
-        "porcentaje2": 60,
-        "skill3": "MYSQL",
-        "porcentaje3": 60,
-        "skill4": "PHP",
-        "porcentaje4": 70,
-        "skill5": "Java",
-        "porcentaje5": 80
-        
-    },
+        {
+            "id": 3,
+            "interest": "Viajar"
+        },
 
-    "skills-idiomas":{
-        
-        "skill1": "Español",
-        "porcentaje1": 100,
-        "skill2": "Inglés",
-        "porcentaje2": 97,
-        "skill3": "Portugués",
-        "porcentaje3": 40
-        
-    },
+        {
+            "id": 4,
+            "interest": "Nadar"
+        },
 
-    "skills-design":
-    {
+        {
+            "id": 5,
+            "interest": "Trekking"
+        },
+
+        {
+            "id": 6,
+            "interest": "Series"
+        },
+
+        {
+            "id": 7,
+            "interest": "Fotos"
+        },
+
+        {
+            "id": 8,
+            "interest": "Juegos"
+        }
+    ],
+    
+
+    "skills_front":[
+        {
+            "id": 1,
+            "skill": "HTML",
+            "porcentaje": 90,
+            "icon": "fa-brands fa-html5 fa-2xl space-between"
+        },
+
+        {
+            "id": 2,
+            "skill": "CSS",
+            "porcentaje": 90,
+            "icon": "fa-brands fa-css3-alt fa-2xl space-between"
+        },
+
+        {
+            "id": 3,
+            "skill": "JavaScript",
+            "porcentaje": 70,
+            "icon": "fa-brands fa-square-js fa-2xl space-between"
+        },
+
+        {
+            "id": 4,
+            "skill": "TypeScript",
+            "porcentaje": 60,
+            "icon": "fa-regular fa-window-maximize fa-2xl space-between"
+        },
+
+        {
+            "id": 5,
+            "skill": "Angular",
+            "porcentaje": 60,
+            "icon": "fa-brands fa-angular fa-2xl space-between"
+        }
+           
+           
+            
         
-        "skill1": "Photoshop",
-        "porcentaje1": 90,
-        "skill2": "Ilustrator",
-        "porcentaje2": 70,
-        "skill3": "AdobeXD",
-        "porcentaje3": 60,
-        "skill4": "Aftereffects",
-        "porcentaje4": 70,
-        "skill5": "FIGMA",
-        "porcentaje5": 80,
-        "skill6": "Canva",
-        "porcentaje6": 80
+    ],
+    
+
+    "skills_back":[
+        {
+            "id": 1,
+            "skill": "GIT",
+            "porcentaje": 60,
+            "icon": "fa-brands fa-git-alt fa-2xl space-between"
+        },
         
-    },
+        {
+            "id": 2,
+            "skill": "NODE.JS",
+            "porcentaje": 60,
+            "icon": "fa-brands fa-node-js fa-2xl space-between"
+        },
+        
+        {
+            "id": 3,
+            "skill": "MYSQL",
+            "porcentaje":60,
+            "icon": "fa-solid fa-database fa-2xl space-between"
+        },
+
+        
+        {
+            "id": 4,
+            "skill": "PHP",
+            "porcentaje": 70,
+            "icon": "fa-brands fa-php fa-2xl space-between"
+        },
+
+        {
+            "id": 5,
+            "skill": "Java",
+            "porcentaje": 80,
+            "icon": "fa-brands fa-java fa-2xl space-between"
+        }
+        
+        
+    ],
+   
+
+    "skills_idiomas":[
+        {
+            "id": 1,
+            "skill": "ESPAÑOL",
+            "porcentaje": 100,
+            "icon": "fa-solid fa-circle-check fa-2xl space-between"
+        },
+
+        {
+            "id": 2,
+            "skill": "INGLÉS",
+            "porcentaje": 97,
+            "icon": "fa-solid fa-circle-check fa-2xl space-between"
+        },
+        {
+            "id": 1,
+            "skill": "PORTUGUÉS",
+            "porcentaje": 50,
+            "icon": "fa-solid fa-circle-check fa-2xl space-between"
+        }
+    ],
+
+    "skills_design":
+    [
+        {
+            "id": 1,
+            "skill": "Photoshop",
+            "porcentaje": 100,
+            "icon": "fa-solid fa-layer-group fa-2xl space-between"
+        },
+
+        {
+            "id": 2,
+            "skill": "Ilustrator",
+            "porcentaje": 90,
+            "icon": "fa-solid fa-pen-nib fa-2xl space-between"
+        },
+
+        {
+            "id": 3,
+            "skill": "AdobeXD",
+            "porcentaje": 60,
+            "icon": "fa-solid fa-table-cells fa-2xl space-between"
+        },
+
+        {
+            "id": 4,
+            "skill": "AfterEffects",
+            "porcentaje": 70,
+            "icon": "fa-solid fa-person-running fa-2xl space-between"
+        },
+
+        {
+            "id": 5,
+            "skill": "Figma",
+            "porcentaje": 80,
+            "icon": "fa-brands fa-figma fa-2xl space-between"
+        },
+
+        {
+            "id": 6,
+            "skill": "Canva",
+            "porcentaje": 90,
+            "icon": "fa-solid fa-sheet-plastic fa-2xl space-between"
+        }
+        
+
+    ],
+    
 
     "education-formal":[
         {
