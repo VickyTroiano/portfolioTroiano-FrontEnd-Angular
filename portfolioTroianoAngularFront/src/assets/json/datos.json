@@ -28,15 +28,11 @@
         "profilePic": "assets/img/img-presentacion.png",
         "title": "Foto de presentacion",
         "name": "Victoria Delfina Troiano",
-        "cv": "assets/cv/cv-troiano.pdf"
-    },
-
-    "description_item":{
-        "item1": "Desarrolladora FullStack Junior.",
-        "item2": "Estudiante de Analista en Sistemas.",
-        "item3": "Amante del buen diseño.",
-        "item4": "Emprendedora."
-
+        "cv": "assets/cv/cv-troiano.pdf",
+        "descripcion1": "Desarrolladora FullStack Junior.",
+        "descripcion2": "Estudiante de Analista en Sistemas.",
+        "descripcion3": "Amante del buen diseño.",
+        "descripcion4": "Emprendedora."
     },
 
     "about_me":
