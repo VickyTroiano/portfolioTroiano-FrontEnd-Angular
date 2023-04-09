@@ -1,12 +1,7 @@
 <ul class="list-group list-group-horizontal">
-
-    <li class="list-group-item border-0 bg-transparent"><a href="https://github.com/VickyTroiano" target="_blank"><i class="fa-brands fa-github fa-2x text-white"></i></a> 
-    </li>
-
-    <li class="list-group-item border-0 bg-transparent"><a href="https://www.linkedin.com/in/victoria-delfina-troiano-97056b235/" target="_blank"><i class="fa-brands fa-linkedin fa-2x text-white"></i></a> 
-    </li> 
-    <li class="list-group-item border-0 bg-transparent"><a href="https://www.instagram.com/vicky.troiano/" target="_blank"><i class="fa-brands fa-instagram fa-2x text-white"></i></a>
-    </li>
-
-
+    <div  *ngFor="let red of infoRedes">
+        <li class="list-group-item border-0 bg-transparent"><a [href]="red.link" target="_blank"><i class="{{red.icon}}"></i></a> 
+        </li>
+    </div>
+    
 </ul>

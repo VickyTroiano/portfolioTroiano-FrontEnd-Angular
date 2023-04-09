@@ -1,6 +1,27 @@
 
 
 {
+    "redes": [
+        {
+            "id": 1,
+            "link": "https://github.com/VickyTroiano",
+            "icon": "fa-brands fa-github fa-2x text-white"
+        },
+
+        {
+            "id": 2,
+            "link": "https://www.linkedin.com/in/victoria-delfina-troiano-97056b235/",
+            "icon": "fa-brands fa-linkedin fa-2x text-white"
+        },
+
+        {
+            "id": 3,
+            "link": "https://www.instagram.com/vicky.troiano/",
+            "icon": "fa-brands fa-instagram fa-2x text-white"
+        }
+   
+    ],
+
     "profile":
     {
         "bannerImg": "assets/img/banner-montania3.png",
